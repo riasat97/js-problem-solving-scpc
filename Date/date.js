@@ -1,0 +1,10 @@
+const today= new Date();
+console.log(today);
+const year= today.getFullYear();
+console.log(year);
+const month= today.getMonth()+1;
+console.log(month);
+const day= today.getDate();
+console.log(day);
+const format= year+'-'+month+'-'+day;
+console.log(format);
